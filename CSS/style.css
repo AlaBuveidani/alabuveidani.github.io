@@ -413,7 +413,11 @@ header .bottom_header .nav_links li.active a{
     color: var(--p_color);
 }
 
+<<<<<<< HEAD
 /* Sepete Ekle Butonu */
+=======
+/* Satın Al Butonu */
+>>>>>>> a1745a0fe1e8253cf11aaf0f2e9d15325f101a6b
 .buy-btn{
     padding: 12px 25px;
     background: var(--main_color);
@@ -879,12 +883,19 @@ header .bottom_header .nav_links li.active a{
     text-align: center;
     box-shadow: 0 6px 18px rgba(0,0,0,0.05);
     transition: 0.2s;
+<<<<<<< HEAD
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product-card:hover{
     transform: translateY(-6px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+=======
+}
+
+.product-card:hover{
+    transform: translateY(-4px);
+>>>>>>> a1745a0fe1e8253cf11aaf0f2e9d15325f101a6b
 }
 
 .product-card img{
@@ -911,6 +922,7 @@ header .bottom_header .nav_links li.active a{
     width: 100%;
 }
 
+<<<<<<< HEAD
 /* fake square of the image */
 .product-img-box {
     width: 100%;
@@ -929,6 +941,8 @@ header .bottom_header .nav_links li.active a{
   }
   
 
+=======
+>>>>>>> a1745a0fe1e8253cf11aaf0f2e9d15325f101a6b
 /* Responsive */
 @media (max-width: 992px){
     .product-grid{
@@ -1035,6 +1049,7 @@ header .bottom_header .nav_links li.active a{
     }
 }
 
+<<<<<<< HEAD
 .qty-control {
   display: flex;
   align-items: center;
@@ -1064,6 +1079,9 @@ header .bottom_header .nav_links li.active a{
 .qty-control button:active {
   transform: scale(0.95);
 }
+=======
+
+>>>>>>> a1745a0fe1e8253cf11aaf0f2e9d15325f101a6b
 
 
 /* ===== Custom Scrollbar ===== */
